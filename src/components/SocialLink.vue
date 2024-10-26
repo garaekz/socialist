@@ -8,7 +8,7 @@ import WebsiteIcon from './icons/Website.vue';
 interface Social {
     name: string
     url: string
-    icon: string
+    icon?: string
 }
 
 const props = defineProps<{ social: Social }>()
