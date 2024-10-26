@@ -1,0 +1,21 @@
+[
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/garaekz/",
+        "icon": "linkedin"
+    },
+    {
+        "name": "GitHub",
+        "url": "https://github.com/garaekz",
+        "icon": "github"
+    },
+    {
+        "name": "Tiktok",
+        "url": "https://www.tiktok.com/@garaekz",
+        "icon": "tiktok"
+    },
+    {
+        "name": "My Personal Website 🚀",
+        "url": "https://dagacoding.com"
+    }
+]

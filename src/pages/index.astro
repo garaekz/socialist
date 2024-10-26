@@ -4,29 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import SocialLink from "../components/SocialLink.vue";
 import { Image } from "astro:assets";
 import logo from "../assets/img/logo-color.svg";
-
-const socials = [
-	{
-		name: "LinkedIn",
-		url: "https://www.linkedin.com/in/garaekz/",
-		icon: "linkedin",
-	},
-	{
-		name: "GitHub",
-		url: "https://github.com/garaekz",
-		icon: "github",
-	},
-	{
-		name: "Tiktok",
-		url: "https://www.tiktok.com/@garaekz",
-		icon: "tiktok",
-	},
-	{
-		name: "My Personal Website  🚀",
-		url: "https://dagacoding.com",
-		icon: "fas fa-globe",
-	},
-];
+import socials from "../assets/socials.json";
 ---
 
 <Layout title="David Garay - My Social Presence">
