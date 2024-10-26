@@ -29,6 +29,6 @@ const logo = computed(() => {
     <a :href="social.url" target="_blank"
         class="w-full flex items-center justify-between rounded-lg border-2 dark:border dark:border-zinc-300 border-zinc-600 p-4 hover:text-emerald-600 hover:border-emerald-600 dark:hover:text-emerald-300 dark:hover:border-emerald-300 hover:scale-105 transition-transform duration-300 ease-in-out">
         <component :is="logo" class="w-6 h-6" /> {{ social.name }}
-        <button />
+        <div />
     </a>
 </template>

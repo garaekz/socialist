@@ -7,7 +7,7 @@ const isDark = useDark()
 const toggleDark = useToggle(isDark)
 </script>
 <template>
-    <button
+    <button aria-label="Toggle dark mode"
         class="m-2 p-1.5 rounded-lg border-2 dark:border dark:border-zinc-300 border-zinc-600 hover:text-emerald-600 hover:border-emerald-600 dark:hover:text-emerald-300 dark:hover:border-emerald-300 hover:scale-105 transition-transform duration-300 ease-in-out"
         @click="toggleDark()">
         <SunIcon v-if="isDark" class="size-5" />
